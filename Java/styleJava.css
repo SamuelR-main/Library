@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+code{
+    background-color: rgb(233, 129, 149);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
