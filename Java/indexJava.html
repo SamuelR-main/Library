@@ -17,6 +17,129 @@
         <h2 class="flex justify-left">Basics</h2>
         <p> - Every project java requires this code: </p>
         <code>public static void main(strings[] args) {codes here}<br></code>
+        <h2>Numbers</h2>
+        <p class="italic">Integer Type: </p>
+        <code>byte, short, int, long</code>
+        <p class="italic">Floating Point Type: </p>
+        <code>float, double</code>
+        <p class="underline italic">byte</p>
+        <p>data type can store whole number from: -128 to 127 = 2^8</p>
+        <p class="underline italic">short</p>
+        <p>data type can store whole number from: -32768 to 32767 = 2^16</p>
+        <p class="underline italic">int</p>
+        <p>data type can store whole number from: -2147483648 to 2147483647 = 2^32</p>
+        <p class="underline italic">long</p>
+        <p>data type can store whole number from: -9223372036854775808 to 9223372036854775807 = 2^64</p>
+        <p class="underline italic">float</p>
+        <p>data type can store whole fractional number "end with f"</p>
+        <p class="underline italic">double</p>
+        <p>data type can store whole fractional number "end with d"</p>
+        <p class="underline italic">boolean</p>
+        <p>data type can store whole from "true" or "false"</p>
+        <p class="underline italic">char</p>
+        <p>data type can store a single character, sigle quotes "a" or "C", can use ASCII Values</p>
+        <p class="underline italic">String</p>
+        <p>data type is used to store a sequence of caracters (text), double quotes</p>
+        <h2>Java Type Casting</h2>
+        <p class="underline italic">Widering Casting (Automatically)</p>
+        <p>converting a smaller type to a larger type size:</p>
+        <code>byte -> short -> char -> int -> long -> float -> double</code>
+        <p class="underline italic">Norrowing Casting (Manually)</p>
+        <p>Converting a larger type to a smaller size type:</p>
+        <code>double -> float -> long -> int -> char -> short -> byte</code>
+        <h3>Widening Casting</h3>
+        <code>int myInt = 9;<br>double myDouble = myInt;<br></code>
+        <h3>Narrowing Casting</h3>
+        <code>double myDollar = 9.78d;<br>int myInt = (int) myDouble;<br></code>
+        <h2>Java Operators</h2>
+        <ul>
+            <li>Arithmetic Operators</li>
+            <li>Assignment Operators</li>
+            <li>composison Operators</li>
+            <li>Logical Operators</li>
+            <li>Bitwise Operators</li>
+        </ul>
+        <table class="w-[800px] text-center border-solid border-[2px]">
+            <thead class="border-[1px]">
+                <tr class="border-[1px]">
+                    <th class="border-[1px]">Op</th>
+                    <th class="border-[1px]">Name</th>
+                    <th class="border-[1px]">Description</th>
+                    <th class="border-[1px]">Example</th>
+                </tr>
+            </thead>
+            <tbody class="border-[1px]">
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">+</td>
+                    <td class="border-[1px]">Addition</td>
+                    <td class="border-[1px]">Adds together two value</td>
+                    <td class="border-[1px]">X + Y</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">-</td>
+                    <td class="border-[1px]">Subtration</td>
+                    <td class="border-[1px]">Subtracts one value from another</td>
+                    <td class="border-[1px]">X - Y</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">*</td>
+                    <td class="border-[1px]">Multiplication</td>
+                    <td class="border-[1px]">Multiplies two values</td>
+                    <td class="border-[1px]">X * Y</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">/</td>
+                    <td class="border-[1px]">Division</td>
+                    <td class="border-[1px]">Divides one value by another</td>
+                    <td class="border-[1px]">X / Y</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">%</td>
+                    <td class="border-[1px]">Modulus</td>
+                    <td class="border-[1px]">Returns the division remainder</td>
+                    <td class="border-[1px]">X % Y</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">++</td>
+                    <td class="border-[1px]">Increment</td>
+                    <td class="border-[1px]">Increases the value of a variable by 1</td>
+                    <td class="border-[1px]">++X</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">--</td>
+                    <td class="border-[1px]">Decrement</td>
+                    <td class="border-[1px]">Decreases the value of a variable by 1</td>
+                    <td class="border-[1px]">--X</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Java Assignment Operators</h2>
+        <table class="w-[600px] text-center border-solid border-[2px]">
+            <thead class="border-[1px]">
+                <tr class="border-[1px]">
+                    <th class="border-[1px]">Operators</th>
+                    <th class="border-[1px]">Example</th>
+                    <th class="border-[1px]">Same as</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">=</td>
+                    <td class="border-[1px]">X = 5</td>
+                    <td class="border-[1px]">X = 5</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">+=</td>
+                    <td class="border-[1px]">X += 3</td>
+                    <td class="border-[1px]">X = X + 3</td>
+                </tr>
+                <tr class="border-[1px]">
+                    <td class="border-[1px]">-=</td>
+                    <td class="border-[1px]">X -= 3</td>
+                    <td class="border-[1px]">X = X - 3</td>
+                </tr>
+            </tbody>
+        </table>
     </article>
 </body>
 </html>
